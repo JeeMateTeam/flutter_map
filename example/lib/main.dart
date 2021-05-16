@@ -6,10 +6,8 @@ import './pages/custom_crs/custom_crs.dart';
 import './pages/esri.dart';
 import './pages/home.dart';
 import './pages/live_location.dart';
-import './pages/many_markers.dart';
 import './pages/map_controller.dart';
 import './pages/marker_anchor.dart';
-import './pages/marker_rotate.dart';
 import './pages/moving_markers.dart';
 import './pages/offline_map.dart';
 import './pages/on_tap.dart';
@@ -19,7 +17,6 @@ import './pages/plugin_scalebar.dart';
 import './pages/plugin_zoombuttons.dart';
 import './pages/polyline.dart';
 import './pages/sliding_map.dart';
-import './pages/stateful_markers.dart';
 import './pages/tap_to_add.dart';
 import './pages/tile_builder_example.dart';
 import './pages/tile_loading_error_handle.dart';
@@ -53,7 +50,6 @@ class MyApp extends StatelessWidget {
         PluginZoomButtons.route: (context) => PluginZoomButtons(),
         OfflineMapPage.route: (context) => OfflineMapPage(),
         OnTapPage.route: (context) => OnTapPage(),
-        MarkerRotatePage.route: (context) => MarkerRotatePage(),
         MovingMarkersPage.route: (context) => MovingMarkersPage(),
         CirclePage.route: (context) => CirclePage(),
         OverlayImagePage.route: (context) => OverlayImagePage(),
@@ -64,8 +60,6 @@ class MyApp extends StatelessWidget {
         TileLoadingErrorHandle.route: (context) => TileLoadingErrorHandle(),
         TileBuilderPage.route: (context) => TileBuilderPage(),
         InteractiveTestPage.route: (context) => InteractiveTestPage(),
-        ManyMarkersPage.route: (context) => ManyMarkersPage(),
-        StatefulMarkersPage.route: (context) => StatefulMarkersPage(),
       },
     );
   }
